@@ -15,8 +15,8 @@ name: iStoreOS 24 Builder
 on:
   repository_dispatch:
   workflow_dispatch:
-  schedule:
-    - cron: 0 0 1 * *
+#  schedule:
+#    - cron: 0 0 1 * *
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
